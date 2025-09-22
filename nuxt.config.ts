@@ -5,5 +5,8 @@ export default defineNuxtConfig({
   css: ['~/assets/index.css'],
   app:{
     baseURL: '/cat-catalogue/'
+  },
+  nitro: {
+    preset: 'github_pages'
   }
 })
