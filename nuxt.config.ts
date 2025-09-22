@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css: ['~/assets/index.css']
+  css: ['~/assets/index.css'],
+  app:{
+    baseURL: '/cat-catalogue/'
+  }
 })
